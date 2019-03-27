@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cloudvisor.beerstore.service.BeerServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-27T01:40:24" hostname="500010306605-NB" time="0.86">
+  <properties/>
+  <testcase name="should_create_new_beer" classname="com.cloudvisor.beerstore.service.BeerServiceTest" time="0.855"/>
+  <testcase name="should_deny_creation_of_beer_that_exists" classname="com.cloudvisor.beerstore.service.BeerServiceTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

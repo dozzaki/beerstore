@@ -1,5 +1,5 @@
 FROM openjdk:8u171-jdk-alpine3.8
-LABEL maintainer="normandesjr@gmail.com"
+LABEL maintainer="dozzaki@gmail.com"
 
 ENV LANG C.UTF-8
 

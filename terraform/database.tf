@@ -19,7 +19,7 @@ module "rds" {
   maintenance_window = "Thu:03:30-Thu:05:30"
   backup_window = "05:30-06:30"
   storage_type = "gp2"
-  multi_az = "true"
+  multi_az = "false"
   family = "postgres10"
 
   subnet_ids = "${flatten(chunklist(aws_subnet.private_subnet.*.id, 1))}"
